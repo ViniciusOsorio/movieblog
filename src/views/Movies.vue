@@ -37,7 +37,7 @@
 import axios from 'axios'
 
 export default {
-    name: 'movies',
+    name: 'movie',
     data: function (){
         return {
             movieList: [],
