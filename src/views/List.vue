@@ -12,7 +12,7 @@
                     <th>Title</th>
                     <th>Genre</th>
                     <th>Score</th>
-                    <th></th>
+                    <th>Details</th>
                 </thead>
                 <tbody>
                     <tr>
@@ -40,5 +40,19 @@ export default {
 </script>
 
 <style scoped>
+    table{
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+        text-align: center;
+    }
+
+    th{
+        font-size: 20px;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+    }
 
 </style>
